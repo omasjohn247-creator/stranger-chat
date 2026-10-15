@@ -1,0 +1,16 @@
+{
+  "name": "stranger-chat",
+  "version": "1.0.0",
+  "description": "Anonymous one-to-one text chat with random strangers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
